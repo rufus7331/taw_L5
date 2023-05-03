@@ -1,5 +1,4 @@
-'use strict';
-
+import userManager from './user.manager';
 
 
 function getter(manager, request) {
@@ -9,5 +8,5 @@ function getter(manager, request) {
 }
 
 export default {
-
+  getUserManager: getter(userManager)
 };
